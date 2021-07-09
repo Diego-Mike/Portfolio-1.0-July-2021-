@@ -100,6 +100,7 @@ const Projects = () => {
             <a
               href="https://github.com/Diego-Mike/Rick-And-Morty-App"
               target="_blank"
+              rel="noreferrer"
             >
               Repository
             </a>
@@ -140,6 +141,7 @@ const Projects = () => {
             <a
               href="https://github.com/Diego-Mike/Genius-Clone"
               target="_blank"
+              rel="noreferrer"
             >
               Repository
             </a>
@@ -185,6 +187,7 @@ const Projects = () => {
             <a
               href="https://github.com/Diego-Mike/Costureria-Gloria"
               target="_blank"
+              rel="noreferrer"
             >
               Repository
             </a>
@@ -227,6 +230,7 @@ const Projects = () => {
             <a
               href="https://github.com/Diego-Mike/Cryptocurrency-App"
               target="_blank"
+              rel="noreferrer"
             >
               Repository
             </a>
@@ -264,39 +268,42 @@ const Projects = () => {
             <h3>Daily App</h3>
             {ChangeText ? (
               <>
-              <p>
-                Create an account, create your own <br /> room, then, you can
-                add taks to your <br /> day, and, by the end of it you can
-                <br /> check how many tasks you completed <br /> and add a small
-                comment, then you can <br /> get ready for next day !
-                <br /> <br />
-                The reason why i made this app, is because <br /> i organize my
-                day by tasks, and this one <br /> allows me to do that, even
-                though <br/>   it's pretty simple, i use it proudly every <br/> single day !
-              </p> 
-              <span>
-              React - Redux thunk - Styled c - <br /> Express -  Node - MongoDB
-            </span>
-            </>
+                <p>
+                  Create an account, create your own <br /> room, then, you can
+                  add taks to your <br /> day, and, by the end of it you can
+                  <br /> check how many tasks you completed <br /> and add a
+                  small comment, then you can <br /> get ready for next day !
+                  <br /> <br />
+                  The reason why i made this app, is because <br /> i organize
+                  my day by tasks, and this one <br /> allows me to do that,
+                  even though <br /> it's pretty simple, i use it proudly every{" "}
+                  <br /> single day !
+                </p>
+                <span>
+                  React - Redux thunk - Styled c - <br /> Express - Node -
+                  MongoDB
+                </span>
+              </>
             ) : (
               <>
-              <p>
-                Create an account, create your own room, then, you <br /> can
-                add taks to your day, and, by the end of it you can <br /> check
-                how many tasks you completed and add a small <br /> comment,
-                then you can get ready for next day !
-                <br /> <br />
-                The reason why i made this app, is because i organize my <br />
-                day by tasks, and this one allows me to do that, even <br />
-                though it's pretty simple, i use it proudly every single day !
-              </p>
-              <span>
-              React - Redux thunk - Styled c - Express - <br /> Node - MongoDB
-            </span>
-            </>
+                <p>
+                  Create an account, create your own room, then, you <br /> can
+                  add taks to your day, and, by the end of it you can <br />{" "}
+                  check how many tasks you completed and add a small <br />{" "}
+                  comment, then you can get ready for next day !
+                  <br /> <br />
+                  The reason why i made this app, is because i organize my{" "}
+                  <br />
+                  day by tasks, and this one allows me to do that, even <br />
+                  though it's pretty simple, i use it proudly every single day !
+                </p>
+                <span>
+                  React - Redux thunk - Styled c - Express - <br /> Node -
+                  MongoDB
+                </span>
+              </>
             )}
 
-            
             <a onClick={DailyRepo}>Repository</a>
           </ProjectsWrapperText>
         </ProjectsWrapper>
@@ -331,32 +338,32 @@ const Projects = () => {
             <h3>Facebook clone</h3>
             {ChangeText ? (
               <p>
-              Facebook clone, why not ?
-              <br />
-              <br />
-              Create your account, post publications, add <br /> friends,
-              comment on publications <br/>  and much more !
-              <br />
-              <br />
-              This project so far has been the biggest i've <br /> ever  done,
-              here i put all knowledge i've <br /> accumulated  in the last
-              months about <br/> web development.
-            </p>
+                Facebook clone, why not ?
+                <br />
+                <br />
+                Create your account, post publications, add <br /> friends,
+                comment on publications <br /> and much more !
+                <br />
+                <br />
+                This project so far has been the biggest i've <br /> ever done,
+                here i put all knowledge i've <br /> accumulated in the last
+                months about <br /> web development.
+              </p>
             ) : (
               <p>
-              Facebook clone, why not ?
-              <br />
-              <br />
-              Create your account, post publications, add friends, <br />
-              comment on publications and much more !
-              <br />
-              <br />
-              This project so far has been the biggest i've ever <br /> done,
-              here i put all knowledge i've accumulated <br /> in the last
-              months about web development.
-            </p>
+                Facebook clone, why not ?
+                <br />
+                <br />
+                Create your account, post publications, add friends, <br />
+                comment on publications and much more !
+                <br />
+                <br />
+                This project so far has been the biggest i've ever <br /> done,
+                here i put all knowledge i've accumulated <br /> in the last
+                months about web development.
+              </p>
             )}
-            
+
             <span>
               Next - SWR hook - Styled c - <br /> Express - Node - MongoDB - TS
             </span>

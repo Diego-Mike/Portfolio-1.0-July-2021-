@@ -13,6 +13,7 @@ const Navbar = () => {
         <GithubIcon
           href="https://github.com/Diego-Mike?tab=repositories"
           target="_blank"
+          rel="noreferrer"
         >
           <Image src="/github.svg" alt="" layout="fill" objectFit="cover" />
         </GithubIcon>
